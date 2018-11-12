@@ -31,7 +31,7 @@ def page_not_found(error):
 #Зададим время жизни сессии
 app.permanent_session_lifetime = timedelta(minutes=120)
 # Создадим секретный ключ для сессии.
-app.secret_key = '\x00\xf1\x00Bv\x97\x97K\x11w\xd0vJ\xcfL\xf2\xcf\x90\\1\x04\xe1\xe3g'
+app.secret_key = '\x00\xf1\x00Bv\x990\\1\x04\xe1\xe3g'
 
 
 app.run(debug=True)
